@@ -4,7 +4,7 @@
 > A high-performance, accessible, and responsive personal developer portfolio engineered with plain HTML5, CSS3, and vanilla JavaScript. Hosted and continuously deployed on **AWS Amplify Hosting**.
 
 🔗 **Live Deployment URL:** *[Deploying to AWS Amplify — URL Placeholder]*  
-📂 **GitHub Repository:** [https://github.com/DamarlaManvithaSri/](https://github.com/DamarlaManvithaSri/)  
+📂 **GitHub Repository:** [https://github.com/DamarlaManvithaSri/manvitha-portfolio](https://github.com/DamarlaManvithaSri/manvitha-portfolio)  
 
 ---
 
@@ -72,8 +72,8 @@ To run this portfolio locally without any dependencies or install steps:
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/DamarlaManvithaSri/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/DamarlaManvithaSri/manvitha-portfolio.git
+   cd manvitha-portfolio
    ```
 2. Open `index.html` in any modern web browser:
    - On Windows: Double-click `index.html` or open in Chrome/Edge.
@@ -89,3 +89,4 @@ To run this portfolio locally without any dependencies or install steps:
 - **LinkedIn:** [Damarla Manvitha Sri](https://www.linkedin.com/in/damarla-manvitha-sri-9909b9416/)  
 - **LeetCode:** [ManvithaSriDamarla](https://leetcode.com/u/ManvithaSriDamarla/)  
 - **Devpost:** [manvithasridamarla](https://devpost.com/manvithasridamarla)
+
