@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damarla Manvitha Sri | AI & Cybersecurity Portfolio</title>
+  
+  <!-- SEO & Hackathon Metadata -->
+  <meta name="description" content="Personal portfolio of Damarla Manvitha Sri - First-Year B.Tech CSE (AI) Student at Amrita Vishwa Vidyapeetham, Aspiring AI Engineer, and Builder of Ghost Data Auditor." />
+  <meta name="author" content="Damarla Manvitha Sri" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  
+  <!-- Google Fonts: Inter for crisp body text and JetBrains Mono for the terminal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- =========================================================
+       1. STICKY NAVIGATION BAR
+       Includes smooth-scroll links, brand identity, and mobile menu toggle.
+       ========================================================= -->
+  <header class="navbar-wrapper">
+    <nav class="navbar" id="navbar" aria-label="Main Navigation">
+      <a href="#hero" class="brand-link" aria-label="Damarla Manvitha Sri - Home">
+        <span class="brand-logo">MS</span>
+        <span class="brand-name">Damarla Manvitha Sri</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#creative-feature" class="nav-link nav-highlight">Interactive CLI ⚡</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         2. HERO SECTION
+         Headline, student role, mission statement, and quick CTAs.
+         ========================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container container">
+        <div class="hero-content">
+          <!-- Student Status Badge -->
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Amrita Vishwa Vidyapeetham • 1st-Year B.Tech CSE (AI)</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Damarla Manvitha Sri</span>
+          </h1>
+
+          <p class="hero-tagline">
+            Aspiring AI Engineer <span class="divider">|</span> Curious Learner &amp; Builder
+          </p>
+
+          <p class="hero-description">
+            Driven by curiosity to explore how intelligent systems operate and solve real-world problems. 
+            Currently building strong foundations in artificial intelligence, software engineering, and cybersecurity to create impactful, responsible technology.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#creative-feature" class="btn btn-accent">
+              <span class="pulse-icon">⚡</span>
+              <span>Try Live Terminal</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">Connect</a>
+          </div>
+
+          <!-- Social Quick Links Bar -->
+          <div class="hero-social-strip">
+            <span class="social-label">Find me on:</span>
+            <div class="social-icons-row">
+              <a href="https://github.com/DamarlaManvithaSri" target="_blank" rel="noopener noreferrer" class="social-chip" title="GitHub Profile">
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/damarla-manvitha-sri-9909b9416/" target="_blank" rel="noopener noreferrer" class="social-chip" title="LinkedIn Profile">
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://leetcode.com/u/ManvithaSriDamarla/" target="_blank" rel="noopener noreferrer" class="social-chip" title="LeetCode Profile">
+                <span>LeetCode</span>
+              </a>
+              <a href="https://devpost.com/manvithasridamarla" target="_blank" rel="noopener noreferrer" class="social-chip" title="Devpost Profile">
+                <span>Devpost</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Graphic Card -->
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="visual-card-glow"></div>
+            <img src="assets/avatar.svg" alt="Illustration representing Damarla Manvitha Sri's journey in Artificial Intelligence" class="hero-avatar" />
+            <div class="visual-floating-pill">
+              <span class="pill-dot"></span>
+              <span>Building Ghost Data Auditor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. ABOUT ME SECTION
+         My story, university journey, personality, and core motto.
+         ========================================================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Curiosity, Ambition &amp; Purpose</h2>
+          <p class="section-subtitle">
+            A look into who I am, what drives my interest in technology, and where I'm headed.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Story Narrative Column -->
+          <div class="about-narrative">
+            <div class="card story-card">
+              <h3 class="card-title">My Journey Into Technology</h3>
+              <p>
+                I am a first-year B.Tech Computer Science and Engineering (Artificial Intelligence) student at 
+                <strong>Amrita Vishwa Vidyapeetham</strong>. My entry into tech is fueled by a relentless curiosity to comprehend how intelligent algorithms function under the hood, and how we can apply them to address tangible, real-world challenges.
+              </p>
+              <p>
+                Right now, I am dedicated to constructing resilient foundations in programming, algorithmic problem-solving, and core artificial intelligence principles. I love taking concepts learned in class and transforming them into working, practical software.
+              </p>
+              <p>
+                My particular areas of fascination are <strong>AI/ML</strong>, <strong>software development</strong>, and <strong>cybersecurity &amp; data privacy</strong>. My ultimate ambition is to grow into a skilled AI engineer who crafts inventive, useful, and ethically responsible technological solutions.
+              </p>
+
+              <!-- Highlight Impression Quote -->
+              <div class="motto-box">
+                <div class="motto-quote-icon">“</div>
+                <blockquote class="motto-text">
+                  A curious learner with the drive to become a creator of impactful technology.
+                </blockquote>
+                <cite class="motto-author">— My Core Philosophy</cite>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personality & Academic Highlights Column -->
+          <div class="about-cards-col">
+            <!-- Academic Anchor Card -->
+            <div class="card info-card">
+              <div class="info-icon">🎓</div>
+              <div>
+                <h4 class="info-title">Academic Background</h4>
+                <p class="info-text"><strong>Amrita Vishwa Vidyapeetham</strong></p>
+                <p class="info-sub">B.Tech Computer Science &amp; Engineering (AI) • First Year</p>
+              </div>
+            </div>
+
+            <!-- Personality Traits Card -->
+            <div class="card info-card">
+              <div class="info-icon">💡</div>
+              <div>
+                <h4 class="info-title">Mindset &amp; Personality</h4>
+                <p class="info-text"><strong>Curious • Ambitious • Thoughtful</strong></p>
+                <p class="info-sub">Always enthusiastic about learning new skills, experimenting with fresh ideas, and iterating to improve.</p>
+              </div>
+            </div>
+
+            <!-- Hobbies & Interests Card -->
+            <div class="card info-card">
+              <div class="info-icon">🚀</div>
+              <div>
+                <h4 class="info-title">Beyond Academics</h4>
+                <p class="info-text"><strong>Collaborative Building &amp; Exploration</strong></p>
+                <p class="info-sub">Exploring emerging technologies, collaborating with peers on projects, and participating in student hackathons.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. SKILLS & TECH SUPERPOWERS SECTION
+         Honest, categorized breakdown of programming and tools.
+         ========================================================= -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Capabilities</span>
+          <h2 class="section-title">Skills &amp; Tech Superpowers</h2>
+          <p class="section-subtitle">
+            An honest overview of my technical stack, from tools I actively build with to concepts I am eagerly exploring.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Languages & Core Foundations -->
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">💻</div>
+              <div>
+                <h3 class="skill-card-title">Languages &amp; Foundations</h3>
+                <span class="skill-badge badge-active">Active Stack</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">Core programming languages used for application logic, systems thinking, and web design.</p>
+            <div class="skill-tags">
+              <span class="tag"><strong>Python</strong> (Primary)</span>
+              <span class="tag"><strong>C</strong> (Academic Logic)</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">Modern JavaScript</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Frameworks & Libraries -->
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">📦</div>
+              <div>
+                <h3 class="skill-card-title">Libraries &amp; Frameworks</h3>
+                <span class="skill-badge badge-active">Project Tested</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">Libraries leveraged to manipulate datasets and rapidly deliver interactive user interfaces.</p>
+            <div class="skill-tags">
+              <span class="tag"><strong>Streamlit</strong> (App UI)</span>
+              <span class="tag"><strong>Pandas</strong> (Data Analysis)</span>
+              <span class="tag">NumPy (Basics)</span>
+              <span class="tag">Responsive Web Design</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Domains & Specializations -->
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">🛡️</div>
+              <div>
+                <h3 class="skill-card-title">Domains of Interest</h3>
+                <span class="skill-badge badge-learning">Specializing</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">Core theoretical and practical fields driving my projects and engineering curiosity.</p>
+            <div class="skill-tags">
+              <span class="tag">Artificial Intelligence</span>
+              <span class="tag">Cybersecurity</span>
+              <span class="tag">Data Privacy Auditing</span>
+              <span class="tag">Problem Solving &amp; DSA</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools & Platforms -->
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon">⚙️</div>
+              <div>
+                <h3 class="skill-card-title">Developer Tools &amp; Cloud</h3>
+                <span class="skill-badge badge-learning">Daily Workflow</span>
+              </div>
+            </div>
+            <p class="skill-card-desc">Platforms, version control, and cloud environments utilized for hosting and building.</p>
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">AWS Amplify Hosting</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">LeetCode</span>
+              <span class="tag">Devpost</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. PROJECTS & ACHIEVEMENTS SECTION
+         Featuring Ghost Data Auditor, AWS Portfolio, and Problem Solving.
+         ========================================================= -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Projects &amp; Achievements</h2>
+          <p class="section-subtitle">
+            Hands-on applications built with purpose, solving privacy and data security challenges.
+          </p>
+        </div>
+
+        <!-- HERO PROJECT SPOTLIGHT: Ghost Data Auditor -->
+        <article class="hero-project-card card">
+          <div class="hero-project-preview">
+            <img src="assets/ghost-data-auditor.svg" alt="Ghost Data Auditor Dashboard Interface Preview" class="project-img" />
+            <div class="project-spotlight-badge">
+              <span>★ Featured Project</span>
+            </div>
+          </div>
+
+          <div class="hero-project-info">
+            <div class="project-meta-row">
+              <span class="project-category-tag">Cybersecurity &amp; AI Privacy</span>
+              <span class="project-status-tag">Completed &amp; Open Source</span>
+            </div>
+
+            <h3 class="hero-project-title">Ghost Data Auditor</h3>
+            <p class="hero-project-subtitle">AI-Powered Data Privacy &amp; Cybersecurity Dashboard</p>
+
+            <p class="project-description">
+              Ghost Data Auditor is a specialized cybersecurity and privacy auditing application designed to investigate 
+              whether customer data has actually been deleted across an organization's systems or if residual "ghost" data persists.
+            </p>
+            <p class="project-description">
+              The platform identifies lingering personal information, flags data synchronization and backup risks, 
+              and automatically produces evidence-based remediation recommendations for security teams.
+            </p>
+
+            <!-- Key Features List -->
+            <div class="project-features-box">
+              <h4 class="features-heading">Key Capabilities:</h4>
+              <ul class="features-list">
+                <li>Analyzes evidence related to customer data deletion requests</li>
+                <li>Identifies residual personal information and potential retention risks</li>
+                <li>Provides clear audit outcomes and actionable remediation recommendations</li>
+                <li>Generates automated verification checks and audit reports</li>
+              </ul>
+            </div>
+
+            <!-- Tech Badges -->
+            <div class="project-tech-stack">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Streamlit</span>
+              <span class="tech-pill">Pandas</span>
+              <span class="tech-pill">Data Privacy</span>
+              <span class="tech-pill">Cybersecurity</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="project-actions">
+              <a href="https://github.com/DamarlaManvithaSri/Ghost-Data-Auditor" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <span>View on GitHub</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <button class="btn btn-secondary" id="trigger-audit-btn" type="button">
+                <span>Run Mini Audit in CLI ⚡</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- COMPANION PROJECTS GRID -->
+        <div class="secondary-projects-grid">
+          <!-- Companion Project 1: AWS Student Hackathon Portfolio -->
+          <article class="card sub-project-card">
+            <div class="sub-project-header">
+              <span class="sub-project-badge">AWS Student Hackathon</span>
+              <h3 class="sub-project-title">Cloud-Hosted Developer Portfolio</h3>
+            </div>
+            <p class="sub-project-desc">
+              A bespoke, accessible personal portfolio engineered with semantic HTML5, modern CSS3, and responsive JavaScript. Crafted without heavy frameworks to ensure zero-build-step deployment on AWS Amplify Hosting.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-pill">AWS Amplify</span>
+              <span class="tech-pill">HTML5</span>
+              <span class="tech-pill">CSS3</span>
+              <span class="tech-pill">JavaScript</span>
+            </div>
+            <div class="sub-project-footer">
+              <span class="project-live-indicator">● Deployed on AWS Amplify</span>
+            </div>
+          </article>
+
+          <!-- Companion Project 2: Algorithmic Foundations & LeetCode -->
+          <article class="card sub-project-card">
+            <div class="sub-project-header">
+              <span class="sub-project-badge">Continuous Practice</span>
+              <h3 class="sub-project-title">Algorithmic Problem-Solving Lab</h3>
+            </div>
+            <p class="sub-project-desc">
+              Dedicated problem-solving repository focusing on core data structures, algorithmic complexities, and computational logic on LeetCode to build the mathematical foundation required for advanced AI engineering.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">C</span>
+              <span class="tech-pill">Data Structures</span>
+              <span class="tech-pill">LeetCode</span>
+            </div>
+            <div class="sub-project-footer">
+              <a href="https://leetcode.com/u/ManvithaSriDamarla/" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                Visit LeetCode Profile →
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. CREATIVE INTERACTIVE FEATURE
+         "Manvitha-CLI" - Live Interactive Web Terminal
+         Includes clear hint, command execution, quick chips, and non-blocking navigation.
+         ========================================================= -->
+    <section class="section creative-section" id="creative-feature">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Interactive Feature</span>
+          <h2 class="section-title">Manvitha-CLI: The Interactive Terminal</h2>
+          <p class="section-subtitle">
+            Test my background, run a simulated Ghost Data Audit, or inspect my stack through a live terminal interface.
+          </p>
+        </div>
+
+        <!-- Visible Discovery Hint Banner -->
+        <div class="feature-hint-banner" role="region" aria-label="Feature Discovery Hint">
+          <div class="hint-icon-glow">💡</div>
+          <div class="hint-text">
+            <strong>Interactive Hint:</strong> Click any of the quick-action buttons below or type commands directly into the terminal prompt. You can also toggle this terminal anytime using the pulsing badge at the bottom-right corner!
+          </div>
+        </div>
+
+        <!-- Terminal Window Card -->
+        <div class="terminal-container card">
+          <!-- Terminal Title Bar -->
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot dot-red" title="Close / Reset"></span>
+              <span class="dot dot-yellow" title="Minimize"></span>
+              <span class="dot dot-green" title="Expand"></span>
+            </div>
+            <div class="terminal-title">
+              <span class="terminal-user">visitor@manvitha-portfolio</span>:<span class="terminal-path">~</span> (bash)
+            </div>
+            <div class="terminal-status">
+              <span class="status-indicator"></span> Ready
+            </div>
+          </div>
+
+          <!-- Quick Action Command Chips (For effortless interaction without typing) -->
+          <div class="terminal-chips-bar" aria-label="Quick Terminal Commands">
+            <span class="chips-label">Quick Commands:</span>
+            <button class="cmd-chip" data-command="help" type="button">help</button>
+            <button class="cmd-chip" data-command="about" type="button">about</button>
+            <button class="cmd-chip" data-command="skills" type="button">skills</button>
+            <button class="cmd-chip cmd-chip-highlight" data-command="ghost-audit" type="button">⚡ ghost-audit</button>
+            <button class="cmd-chip" data-command="motto" type="button">motto</button>
+            <button class="cmd-chip" data-command="socials" type="button">socials</button>
+            <button class="cmd-chip cmd-chip-clear" data-command="clear" type="button">clear</button>
+          </div>
+
+          <!-- Terminal Output Screen -->
+          <div class="terminal-screen" id="terminal-screen" tabindex="0" role="log" aria-live="polite">
+            <div class="term-line term-intro">
+              <span class="term-cyan">Welcome to Manvitha-CLI v1.0.0 [AI &amp; Cybersecurity Edition]</span>
+            </div>
+            <div class="term-line term-muted">
+              Type <span class="term-highlight">help</span> or click any quick command chip above to begin exploring.
+            </div>
+            <div class="term-line term-separator">────────────────────────────────────────────────────────────</div>
+          </div>
+
+          <!-- Terminal Input Row -->
+          <form class="terminal-input-row" id="terminal-form" autocomplete="off">
+            <label for="terminal-input" class="terminal-prompt">
+              <span class="prompt-user">visitor@manvitha</span>:<span class="prompt-tilde">~</span>$
+            </label>
+            <input 
+              type="text" 
+              id="terminal-input" 
+              class="terminal-input" 
+              placeholder="type 'help' or 'ghost-audit' and press Enter..." 
+              spellcheck="false" 
+              autocomplete="off" 
+              aria-label="Terminal command input"
+            />
+            <button type="submit" class="terminal-send-btn" aria-label="Execute command">
+              Run ↵
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. CONTACT SECTION
+         Strictly public professional links. NO email address displayed.
+         ========================================================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Connect &amp; Collaborate</h2>
+          <p class="section-subtitle">
+            I am always excited to discuss artificial intelligence, cybersecurity challenges, hackathons, and innovative project ideas.
+          </p>
+        </div>
+
+        <div class="contact-card-wrapper card">
+          <div class="contact-intro">
+            <h3 class="contact-heading">Professional Profiles &amp; Work</h3>
+            <p class="contact-subtext">
+              To keep communication streamlined and professional, feel free to reach out or review my active projects and problem-solving journey across my platforms:
+            </p>
+          </div>
+
+          <!-- Social Link Cards Grid (Links ONLY - No Email) -->
+          <div class="contact-links-grid">
+            <!-- GitHub Card -->
+            <a href="https://github.com/DamarlaManvithaSri" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+              <div class="contact-icon github-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-platform">GitHub</span>
+                <span class="contact-handle">@DamarlaManvithaSri</span>
+                <span class="contact-desc">Repositories, Ghost Data Auditor &amp; Code</span>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/damarla-manvitha-sri-9909b9416/" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+              <div class="contact-icon linkedin-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-platform">LinkedIn</span>
+                <span class="contact-handle">Damarla Manvitha Sri</span>
+                <span class="contact-desc">Professional Network &amp; Inquiries</span>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <!-- LeetCode Card -->
+            <a href="https://leetcode.com/u/ManvithaSriDamarla/" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+              <div class="contact-icon leetcode-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.074 5.074 0 0 0-3.85-1.572c-1.488 0-2.883.567-3.864 1.572L3.38 12.396c-1.006 1.006-1.558 2.376-1.558 3.864 0 1.489.552 2.858 1.558 3.864l4.332 4.363A5.405 5.405 0 0 0 11.582 26c1.488 0 2.883-.567 3.864-1.572l2.609-2.636c.514-.514.496-1.365-.039-1.901-.535-.535-1.386-.553-1.914.039zM20.811 13.01H10.666c-.744 0-1.347-.604-1.347-1.348 0-.745.603-1.349 1.347-1.349h10.145c.744 0 1.348.604 1.348 1.349 0 .744-.604 1.348-1.348 1.348z"/></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-platform">LeetCode</span>
+                <span class="contact-handle">@ManvithaSriDamarla</span>
+                <span class="contact-desc">Algorithmic Problem-Solving Journey</span>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <!-- Devpost Card -->
+            <a href="https://devpost.com/manvithasridamarla" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+              <div class="contact-icon devpost-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6.002 1.61L0 12.014l6.002 10.375h11.996L24 12.014 17.998 1.61H6.002zm1.59 4.09h3.766c2.81 0 4.93 1.626 4.93 6.314 0 4.689-2.12 6.315-4.93 6.315H7.592V5.7zm3.175 2.518v7.594h.591c1.378 0 2.217-.936 2.217-3.797 0-2.86-.839-3.797-2.217-3.797h-.591z"/></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-platform">Devpost</span>
+                <span class="contact-handle">@manvithasridamarla</span>
+                <span class="contact-desc">Hackathon Portfolios &amp; Submissions</span>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       8. FLOATING INTERACTIVE FEATURE LAUNCHER
+       Pulsing badge with hint tooltip so visitors never miss the creative CLI.
+       Can be minimized, dismissed, or clicked to jump straight into the terminal.
+       ========================================================= -->
+  <aside class="floating-cli-widget" id="floating-cli" aria-label="Quick Interactive Terminal Launcher">
+    <div class="cli-hint-bubble">
+      <span>⚡ Psst! Try the live terminal</span>
+      <button class="hint-close-btn" id="dismiss-hint" aria-label="Dismiss hint">×</button>
+    </div>
+    <button class="cli-launcher-btn" id="cli-launcher-btn" aria-label="Open Interactive CLI Terminal">
+      <span class="launcher-pulse"></span>
+      <span class="launcher-icon">&gt;_</span>
+      <span class="launcher-text">CLI Mode</span>
+    </button>
+  </aside>
+
+  <!-- =========================================================
+       9. FOOTER
+       Attributions, student hackathon banner, and back to top.
+       ========================================================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-name"><strong>Damarla Manvitha Sri</strong></p>
+        <p class="footer-subtitle">First-Year B.Tech CSE (AI) • Amrita Vishwa Vidyapeetham</p>
+      </div>
+
+      <div class="footer-center">
+        <div class="amplify-badge">
+          <span class="amplify-dot"></span>
+          <span>Hosted on AWS Amplify • AWS Student Hackathon</span>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" aria-label="Back to top of page">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
